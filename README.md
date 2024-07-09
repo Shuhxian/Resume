@@ -1,8 +1,9 @@
 # Resume
-A Streamlit website that showcases my resume up to the date of the latest commit. To view the portfolio, clone the repo and follow the following steps to deploy the website locally vai Docker.
+A Streamlit website that showcases my resume up to the date of the latest commit. To view the portfolio, clone the repo and follow the following steps to deploy the website locally or via Docker.
 
 ## Requirements ##
-Docker
+Python
+Docker (Optional)
 
 ## Installation
 ```
