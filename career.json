@@ -43,7 +43,16 @@
           "headline": "Customer Software Enabling and Optimization Engineer, Intel Microelectronics",
           "text": "<p>Represented the company in SemiCon 2023.<br>Trained a lightweight chatbot that runs on CPUs to support our customers.<br>Developed backend of software that involves machine learning, containerization and camera technologies.<br>Automated processes using bash scripting and Linux technologies. </p>"
         }
-        
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month":"3"
+        },
+        "text": {
+          "headline": "Degree Graduation",
+          "text": "Graduated from Bachelor of Computer Science (Artificial Intelligence) with a CGPA of 3.97/4.00."
+        }
       },
       {
         "start_date": {
