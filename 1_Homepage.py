@@ -81,7 +81,7 @@ with st.container():
         st.subheader('🗣️ Language')
         df=pd.DataFrame({'Language':info['Language'],'Proficiency':info['Proficiency']})
 
-        fig, ax = plt.subplots(figsize=(1,1))
+        fig, ax = plt.subplots(figsize=(3,3))
         sns.barplot(x='Language', y='Proficiency', data=df, ax=ax)
         ax.set_xlabel('Language')
         ax.set_ylabel('Proficiency')
