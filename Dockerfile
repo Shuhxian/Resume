@@ -10,10 +10,12 @@ RUN pip install -r requirements.txt
 
 RUN mkdir app
 WORKDIR /app
-COPY app.py app.py
-# COPY image.png image.png
-# COPY fake_job_postings.csv fake_job_postings.csv
-# COPY pipeline.pkl pipeline.pkl
+COPY 1_Homepage.py 1_Homepage.py
+#COPY bio.txt bio.txt
+COPY constant.py constant.py
+COPY career.json career.json
+COPY resources resources
+COPY pages pages
 
 # Run
-ENTRYPOINT ["streamlit","run","app.py","--server.port=8080","--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit","run","1_Homepage.py","--server.port=8080","--server.address=0.0.0.0"]

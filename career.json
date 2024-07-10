@@ -1,0 +1,77 @@
+{
+    "title": {
+        "text": {
+          "headline": "My Career Timeline",
+          "text": "<p>Below is all the experience I have gained so far.</p>"
+        }
+    },
+    "events": [
+      {
+        "start_date": {
+          "year": "2023",
+          "month":"11"
+        },
+        "text": {
+          "headline": "Data Scientist, Inventech Digital Sdn Bhd",
+          "text": "<p>Developed C++ computer vision solutions to detect defects for customers.<br>Utilized image processing to improve performance. </p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month":"7"
+        },
+        "end_date": {
+          "year": "2023",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Automation Engineer, Core Consulting Sdn Bhd",
+          "text": "<p>Automated data scraping using Python Selenium.<br>Designed and developed Jenkins CI/CD pipeline.<br>Provided automation workshops to internal and government customers.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month":"4"
+        },
+        "end_date": {
+          "year": "2023",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Customer Software Enabling and Optimization Engineer, Intel Microelectronics",
+          "text": "<p>Represented the company in SemiCon 2023.<br>Trained a lightweight chatbot that runs on CPUs to support our customers.<br>Developed backend of software that involves machine learning, containerization and camera technologies.<br>Automated processes using bash scripting and Linux technologies. </p>"
+        }
+        
+      },
+      {
+        "start_date": {
+          "year": "2021",
+          "month":"3"
+        },
+        "end_date": {
+          "year": "2021",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Teaching Assistant, Universiti Malaya",
+          "text": "<p>Taught data structure to students.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2020",
+          "month":"8"
+        },
+        "end_date": {
+          "year": "2021",
+          "month":"1"
+        },
+        "text": {
+          "headline": "Data Scientist Intern, MoneyLion Sdn Bhd",
+          "text": "<p>Developed a data detection system using Python.<br>Carried out exploratory data analysis using data cleaning and data manipulation (Pandas) on potential hypotheses and presented the findings using data visualization tools such as matplotlib and seaborn.<br>Analyzed customer issues in the chatbot data using natural language processing and unsupervised learning.</p>"
+        }
+      }
+    ]
+}
