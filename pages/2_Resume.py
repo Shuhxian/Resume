@@ -2,7 +2,9 @@ import streamlit as st
 import base64
 from constant import info
 
-st.title("📝 Resume")
+st.set_page_config(page_title="Goy's Resume" ,layout="wide", page_icon="📝")
+
+st.header("Resume")
 
 with open("resources/Goy_Shuh_Xian_Resume.pdf","rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
