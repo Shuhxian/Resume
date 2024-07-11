@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title='Goy's Resume' ,layout="wide", page_icon="📝")
+st.set_page_config(page_title="Goy's Resume" ,layout="wide", page_icon="📝")
 
 # # -----------------  chatbot  ----------------- #
 # # Set up the OpenAI key
