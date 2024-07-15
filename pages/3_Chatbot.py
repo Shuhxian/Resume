@@ -6,6 +6,9 @@ st.set_page_config(page_title="Goy's Resume" ,layout="wide", page_icon="📝")
 
 st.header("Chatbot")
 
+st.write("Hi, this is my chatbot. If you would like to know about me in a more conversational manner, you may talk to it. " + \
+         "Please ensure you have entered a Gemini API key from Google AI Studio.")
+
 key = st.sidebar.text_input('Enter your Gemini API Key and hit Enter', type="password")
 genai.configure(api_key=key)
 
